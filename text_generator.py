@@ -1,3 +1,5 @@
+import pandas as pd
+
 class TextGenerator:
     def __init__(self):
-        print('works')
+        self.corpus = pd.read_pickle("corpus.pkl")
