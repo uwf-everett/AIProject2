@@ -4,9 +4,9 @@ def main():
     generator = tg.TextGenerator()
 
     while True:
-        starter_word = input("Please enter your chosen starter word.")
+        starter_word = input("Please enter your chosen starter word: ")
 
-        length = input("Please enter length of sentence.")
+        length = int(input("Please enter length of sentence: "))
         #insert checks for legal input
 
         generated_sentance = generator.generate(starter_word, length)

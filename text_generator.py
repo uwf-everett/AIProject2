@@ -9,7 +9,7 @@ class TextGenerator:
 
     #creates the markov chain dictionary
     def _create_chain(self, text):
-        words = text.split(' ')
+        words = list(text)
 
         dictionary = defaultdict(list)
 
