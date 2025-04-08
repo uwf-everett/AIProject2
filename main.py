@@ -8,10 +8,11 @@ def main():
 
         length = int(input("Please enter length of sentence: "))
 
-        generated_sentance = generator.generate(starter_word, length)
-        print(generated_sentance)
+        generated_sentence = generator.generate(starter_word, length)
+        print("\nGenerated Sentence: e")
+        print(generated_sentence)
 
-        to_exit = input("Type exit to leave, any other key to try enter another word: ")
+        to_exit = input("\nType exit to leave, any other key to try enter another word: ")
         if to_exit == "Exit" or to_exit == "exit":
             break
         
