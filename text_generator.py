@@ -40,7 +40,7 @@ class TextGenerator:
         return dict(dictionary)
 
     def generate(self, starter_word, length):
-        word1 = starter_word
+        word1 = starter_word.lower()
 
         if word1 not in self.markov_chain:
             return f"Sorry, '{starter_word}' is not in the corpus. Try another word."
