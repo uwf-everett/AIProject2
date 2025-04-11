@@ -9,7 +9,7 @@ def main():
         length = int(input("Please enter length of sentence: "))
 
         generated_sentence = generator.generate(starter_word, length)
-        print("\nGenerated Sentence: e")
+        print("\nGenerated Sentence: ")
         print(generated_sentence)
 
         to_exit = input("\nType exit to leave, any other key to try enter another word: ")
